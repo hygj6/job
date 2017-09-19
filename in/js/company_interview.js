@@ -1,0 +1,99 @@
+window.model = avalon.define("interviewInfo", function(vm) {
+    vm.interviewBase={
+        createTemp:function(){
+            if(model.interviewBase.list.length==0||model.interviewBase.list[0].id!=0){
+                model.interviewBase.list.forEach(function(el,index){
+                    model.interviewBase.list[index].show=false;
+                })
+                model.interviewBase.list.push({
+                    id:0,
+                    show:true,
+                    name:"",
+                    contact_name:"",
+                    company_address:"",
+                    contact_phone:""
+                })
+                var item=model.interviewBase.list[model.interviewBase.list.length-1];
+                model.interviewBase.editList=JSON.parse(JSON.stringify(item));
+                SuccessFn(0)
+            }
+        },
+        eidtTemp:function($index){
+            if(model.interviewBase.list[0].id==0){
+                model.interviewBase.list.shift()
+                setTimeout(function(){
+                    model.interviewBase.list[0].show=false;
+                },0)
+            }
+            var item=model.interviewBase.list[$index];
+            model.interviewBase.list.forEach(function(el,index){
+                if(index==$index){
+                    model.interviewBase.editList=JSON.parse(JSON.stringify(item));
+                    model.interviewBase.list[$index].show=!model.interviewBase.list[$index].show;
+                    if(!model.interviewBase.list[$index].show&&model.interviewBase.list[$index].id==0){
+                        model.interviewBase.list.shift()
+                    }
+                }else{
+                    model.interviewBase.list[index].show=false;
+                }
+            })
+            SuccessFn()
+        },
+        setDefault:function($index){
+            $public.post({
+                url:"/companies/template/interview/select.json",
+                data:{
+                    "id":model.interviewBase.list[$index].id
+                },
+                successFn:function(data){
+                    $public.tip("设置成功")
+                    avalon.each(model.interviewBase.list,function(i,el){
+                        if(i==$index){
+                            model.interviewBase.list[$index].selected=true
+                        }else{
+                            model.interviewBase.list[i].selected=false
+                        }
+                    })
+                }
+            })
+        },
+        delTemp:function($index){         
+            $public.post({
+                url:"/companies/template/interview/delete.json",
+                data:{
+                    "id":model.interviewBase.list[$index].id
+                },
+                successFn:function(data){
+                    model.interviewBase.list=model.interviewBase.list.delete($index)
+                }
+            })
+        },
+        list:interviewInfoJson,
+        editList:{}
+    }
+})
+function SuccessFn(){
+    $public.Validform({
+        obj:$("#list-interview form"),
+        fn:function(curform){
+            $public.postJson({
+                url:"/companies/template/interview/create",
+                data:$public.getFormData(curform),
+                successFn:function(data){
+                    var index=curform.parents("li").index()
+                    var item=model.interviewBase.list[index];
+                    var itemEdit=model.interviewBase.editList;
+                    item.id=data.id;
+                    item.show=false;
+                    item.name=itemEdit.name;
+                    item.contact_name=itemEdit.contact_name;
+                    item.company_address=itemEdit.company_address;
+                    item.contact_phone=itemEdit.contact_phone;
+                },
+                alwaysFn:function(curform){
+                    $("button[type='submit']",curform).prop("disabled",false);
+                }
+            })
+        }
+    }) 
+}

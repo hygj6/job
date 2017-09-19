@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <jsp:include page="/WEB-INF/public/public-icon.jsp"/>
+    <body>
+        <div class="wrap main">
+            <div style="height:95px;"></div>
+            <div class="left-cont" style="float: none; margin: 0px auto; width: 760px; padding: 20px; background: #fff;">
+                <div class="resume-cont preview" style="padding: 0px 20px;">
+                    <div style="text-align: center;">
+                        <img width="120" height="120" src="${resume.avatar}" id="picview"/>
+                    </div>
+                    <div style="margin-bottom: 50px;">
+                        <p style="font-size: 14px; text-align: center; line-height:20px;" class="name"><strong style="line-height: 30px; font-size: 18px;">${resume.name}</strong><br>
+                        <span style="width: 100%; display: block; background:#f9f9f9; color:#666;">${resume.selfIntroduction}</span><br>
+                        <span style="color:#666;">${resume.education.education} / ${resume.experience.experience}</span><br>
+                                                                        <span style="color:#666;"><img width="7" height="12" src="../../../img/icon/phone.png"/> 手机:${resume.phone} / <img width="14" height="10" src="../../../img/icon/email.png"/>邮箱:${resume.email} </span></p>
+                    </div>
+                    <div class="experience">
+                        <p style="font-size: 18px; line-height:20px; margin-bottom:20px;">工作经历</p>
+                        <div style="margin-bottom: 100px;">
+                            <#list resume.experiences as experience>
+                            <dl style="line-height:20px; margin-bottom: 50PX;">
+                                <dt>
+                                    <p style="font-size: 16px; line-height: 20px;"><strong>${experience.company}</strong><br>
+                                    ${experience.hireDate?datetime?string('yyyy-MM')}~${experience.leavingDate?datetime?string('yyyy-MM')}<br>
+                                    ${experience.position}<br>
+                                    <span style="color:#666; margin-top: 10px;">${experience.jobDetail}</span></p>
+                                </dt>
+                            </dl>
+                            </#list>
+                        </div>
+                        <p style="font-size: 18px; line-height:20px; margin-bottom:20px;">教育经历</p>
+                        <div style="margin-bottom: 100px;">
+                            <#list resume.educations as education>
+                            <dl style="line-height:20px; margin-bottom: 50PX;" data-time="${education.graduationYear}">
+                                <dt>
+                                    <p style="font-size: 16px; line-height: 20px;"><strong>${education.school}</strong><br>
+                                    ${education.graduationYear}毕业<br>
+                                    <span style="color:#666;">${education.major}/${education.type.education}</span></p>
+                                </dt>
+                            </dl>
+                            </#list>
+                        </div>
+                        <p style="text-align: center; color:#999; font-size: 14px;">-${resume.workStatus.description}-</p>
+                        <div class="clear" style="height: 180px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
