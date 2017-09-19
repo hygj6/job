@@ -1,0 +1,35 @@
+.res-list ul li{font-size: 16px; line-height: 24px; position: relative; border-bottom: 1px dashed #e5e5e5;}
+.res-list ul li h3{font-size:16px; line-height:30px; height:30px;}
+.res-list ul li .text-box{padding:10px 20px; position: relative;}
+.res-list ul li .text-box .drop-btn{padding:5px; position: absolute; top: 10px; right:-5px; cursor: pointer;}
+.res-list ul li .text-box .drop-btn .arow-b{border:8px solid transparent; transition: 0.5s; transform-origin: 50% 3px; border-top-color: #999;}
+.res-list ul li .text-box .drop-btn .arow-b i{border:8px solid transparent; border-top-color: #fff; top: -9px; left: -8px;}
+.res-list ul li .text-box .drop-btn.on .arow-b,.res-list ul li .text-box .drop-btn:hover .arow-b{transform: rotate(180deg); border-top-color:#00b38a; border-top-color:transparent\9; border:8px solid transparent\9; border-bottom-color: #999\9; margin-top: -10px\9;}
+.res-list ul li .text-box .drop-btn.on .arow-b i{border:8px solid transparent\9; border-bottom-color: #fff\9; top:-7px\9; left: -8px\9;}
+
+
+.res-list ul li .job{color:#999; line-height: 24px; height: 24px;}
+.res-list ul li .other-info{color:#999; line-height: 24px; height: 24px;}
+.res-list ul li .other-info span.red{color:#ff5d5d; padding-left: 15px;}
+.res-list ul li .state-info{position: absolute; right: 0; bottom:10px; color: #999; font-size: 14px;}
+.res-list ul li .state{color:#00b38a;}
+/*.res-list ul li .state{background:#00b38a; color: #fff; font-size: 12px; display: inline-block; margin-left: 10px; vertical-align: middle; padding: 0px 10px; border-radius:20px; height:22px; line-height: 22px;}*/
+.res-list ul li .detailed-block{background:#f9f9f9; padding: 30px 60px;}
+.res-list ul li .detailed-block .state-step{position: relative; font-size: 0; text-align: center; line-height: 1; width: 450px; margin: 0px auto;}
+.res-list ul li .detailed-block .state-step dd{display: inline-block; position: relative; z-index: 2; width: 112px; text-align: center; font-size: 14px; color: #999;}
+.res-list ul li .detailed-block .state-step dd .icon{background: url(../img/hook.png); background-position: -33px 0px; display: block; width: 33px; height: 33px; margin: 0px auto;}
+.res-list ul li .detailed-block .state-step dd p{line-height: 25px; padding-top: 5px;}
+.res-list ul li .detailed-block .state-step dd.on{color:#00b38a;}
+.res-list ul li .detailed-block .state-step dd.on .icon{background-position: 0px 0px;}
+.res-list ul li .detailed-block .state-step dt.line{display: block; border-bottom: 1px dashed #ddd; position: absolute; left: 0; top:16px; width: 100%; height: 1px;}
+.res-list ul li .detailed-block .view-list{font-size: 14px; color: #666; position: relative; margin:20px 0px 20px 70px; padding: 20px 0px 10px;}
+.res-list ul li .detailed-block .view-list .view-time{color: #999; line-height: 22px;}
+.res-list ul li .detailed-block .view-list .active{color:#00b38a;}
+.res-list ul li .detailed-block .view-list dd:after{position: absolute; content: ""; display: block; width:8px; height:8px; background: #00b38a; border-radius:100%; top:6px; left:1px;}
+.res-list ul li .detailed-block .view-list dd{position: relative; z-index: 2; padding:0px 0px 20px 30px;}
+.res-list ul li .detailed-block .view-list dt{border-left:1px solid #ddd; position: absolute; left:4px; top: 0; bottom: 0;}
+
+
+
+
+

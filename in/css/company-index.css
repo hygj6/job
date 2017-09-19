@@ -1,0 +1,18 @@
+.company-cont .left-cont .greet{font-size:18px; font-weight: normal; line-height: 30px; padding-top: 15px;}
+.company-cont .left-cont .greet-min{font-size: 14px; color: #666; line-height: 28px;}
+.company-cont .left-cont .result-info{padding-top: 15px;}
+.company-cont .left-cont .result-info dl{white-space:nowrap; text-align: center; background: #f7f7f7; height:80px; font-size: 0; overflow: hidden;}
+.company-cont .left-cont .result-info dl dd{display: inline-block; width: 20%; position: relative;}
+.company-cont .left-cont .result-info dl dd .nub{font-size:24px; color: #333; line-height:30px; padding-top:13px;}
+.company-cont .left-cont .result-info dl dd .item{font-size: 14px; color:#666; line-height: 25px;}
+.company-cont .left-cont .result-info dl dd:after{content:""; background: #e4e7ea; display: block; width: 1px; height: 53px; position: absolute; right:-1px; top:24px;}
+.company-cont .left-cont .table-title{font-size:14px; margin-bottom: 20px; white-space:nowrap; line-height: 36px; padding-top: 20px;}
+.company-cont .left-cont .table-title ul.tab{display:inline-block; margin-left: 15px; font-size: 0; height: 30px; line-height: 30px;}
+.company-cont .left-cont .table-title ul.tab li{font-size:14px; cursor: pointer; display: inline-block; width:60px; border: 1px solid #e4e7ea; text-align: center; border-right:1px solid #e4e7ea; margin-right: -1px;}
+.company-cont .left-cont .table-title ul.tab li:hover{background:#eee;}
+.company-cont .left-cont .table-title ul.tab li a{color: #333;}
+.company-cont .left-cont .table-title ul.tab li.on{background:#00b38a; color: #fff; border-color:#00b38a;}
+.company-cont .left-cont .table-title ul.tab li.on a{color: #fff;}
+
+
+

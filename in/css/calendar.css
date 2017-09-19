@@ -1,0 +1,10 @@
+.race-selection dl dt,.race-selection dl dd{display: inline-block; font-size: 14px; vertical-align: top; line-height:32px; height:32px;}
+.race-selection dl dt{font-size: 14px;}
+.race-selection dl dd{padding-right: 30px;}
+.race-selection dl dd .btn{background: #00b38a; border:none; color:#fff; display: block; height:32px; padding: 0px 20px;}
+.race-selection dl dd .btn:hover{background:#00cb9c;}
+.race-selection dl dd .input-text{border: 1px solid #e4e7ea; color: #999; padding: 5px 10px; width: 220px; height:20px; line-height:20px;}
+.race-selection dl dd .input-text:focus{border-color:#00b38a;}
+.race-selection dl dd select.input-text{line-height:32px; padding:5px 5px; height:32px;}
+
+

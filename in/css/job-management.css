@@ -1,0 +1,42 @@
+.search-tool .search-box{float: left;}
+.search-tool .job-state-info{float: left; font-size: 12px; line-height: 20px; padding-left: 40px;}
+.search-tool .job-state-info span{color: #00b38a;}
+.nav-tab{position: relative;}
+.nav-tab .tool-bar{position: absolute; right: 20px; top:-4px;}
+.nav-tab .tool-bar .btn{display: inline-block; cursor: pointer; vertical-align: top; height: 30px; line-height: 30px; padding: 0px 7px; border: 1px solid #00b38a; color: #00b38a; margin-left: 15px;}
+.nav-tab .tool-bar .btn:hover{background: #00b38a; color:#fff;}
+.nav-tab .tool-bar .btn.on{color: #fff; background: #00b38a;}
+.nav-tab .tool-bar .btn.on:hover{background:#00cb9c;}
+.nav-tab .tool-bar .btn .icon{margin-right: 5px;}
+.job-list li{padding:15px 20px 0px; border: 1px solid #e4e7ea; margin-bottom: 20px;}
+.job-list li .base-info{float: left;}
+.job-list li .base-info .job-name{font-size: 16px; line-height: 20px;}
+.job-list li .base-info .job-name a:hover{text-decoration: underline;}
+.job-list li .base-info .other-info{font-size: 14px; line-height: 32px; color:#666; overflow: hidden;}
+.job-list li .base-info .other-info .item{position: relative; margin-right: 20px;}
+.job-list li .base-info .other-info .item:after{position: absolute; width: 1px; background: #999; height:13px; left:-11px; top:3px; display: block; content: "";}
+.job-list li .state-info{float: right; text-align: center; overflow: hidden; margin-right: -20px;}
+.job-list li .state-info dd{width: 84px; float: left; color: #666; position: relative;}
+.job-list li .state-info dd:after{content: ""; display: block; position: absolute; left: -1px; top:5px; background: #e4e7ea; height: 37px; width: 1px;}
+.job-list li .state-info dd .nub{font-size: 20px; line-height: 22px;}
+.job-list li .state-info dd .label{line-height:24px; color:#999;}
+.job-list li .bottom-bar{clear: both; height:37px; line-height:37px; background: #fafafa; margin: 0px -20px; padding: 0px 20px; color:#999;}
+.job-list li .bottom-bar .time{float: left;}
+.job-list li .bottom-bar .tool-bar{float: right; margin-right: -20px;}
+.job-list li .bottom-bar .tool-bar dd{float: left; width: 84px; height: 37px; position: relative; text-align: center;}
+.job-list li .bottom-bar .tool-bar dd .drop-down{display: none; width: 88px; background: #fff; border: 1px solid #e4e7ea; position: absolute; left: 0; top: 32px;}
+.job-list li .bottom-bar .tool-bar dd:hover .drop-down{display: block; z-index: 2;}
+
+.job-list li .bottom-bar .tool-bar dd .drop-down .arow-t{position: absolute; top: -16px; left: 50%; margin-left: -3px; border-bottom-color:#e4e7ea;}
+.job-list li .bottom-bar .tool-bar dd:after{content: ""; display: block; position: absolute; left: -1px; top:15px; width: 1px; height: 12px; background: #ddd;}
+.job-list li .bottom-bar .tool-bar dd.no-line:after{display: none;}
+.job-list li .bottom-bar .tool-bar dd a{color: #00b38a;}
+.job-list li .bottom-bar .tool-bar dd a:hover{text-decoration: underline;}
+.job-list li .bottom-bar .tool-bar dd a.refresh-job {color:#666; cursor: no-drop;}
+.job-list li .bottom-bar .tool-bar dd a.refresh-job.enable{color:#00b38a; cursor: pointer;}
+
+.job-list li .bottom-bar .tool-bar dd a .arow-b{border-top-color: #00b38a; margin-left: 5px;}
+.job-list li .bottom-bar .tool-bar dd a .arow-b i{border-top-color: #f7f7f7;}
+.job-list li .bottom-bar .tool-bar dd .drop-down{line-height: 24px; padding: 10px 0px 15px;}
+.job-list li .bottom-bar .tool-bar dd .drop-down a{display: block; color:#666;}
+.job-list li .bottom-bar .tool-bar dd .drop-down a:hover{color:#00b38a; background:#f2f2f5; text-decoration:none;}

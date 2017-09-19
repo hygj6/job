@@ -1,0 +1,26 @@
+.form-cont dl dd .upload-img {float: left; background: #ddd;}
+.form-cont dl dd .upload-img .img-box{width:122px; height: 122px; border: 1px solid #ccc;}
+.form-cont dl dd .upload-img .mask{opacity: 0; transition:all 0.2s; background:url(../img/mask.png); position: absolute; left: 0; top: 0; bottom: 0; right: 0;}
+.form-cont dl dd .upload-img:hover .mask{opacity: 1;}
+.form-cont dl dd .upload-img .icon{width:56px; height:49px;  margin: -25px 0px 0px -28px; position: absolute; left: 50%; top: 50%; display: block; color: #fff; text-align: center; font-size: 50px; line-height: 50px;}
+.form-cont dl dd .upload-img .icon:before{content: "\E93B";}
+.temp-list{margin-left: -20px;}
+.temp-list li{float: left; width:570px; margin-left: 20px; position: relative;}
+.temp-list li .default-sig{position: absolute; width:70px; height:70px; right: 0; bottom: 0;}
+.temp-list li .default-sig .icon{color:#00b38a; font-size:70px;}
+.template-block{border: 1px solid #e4e7ea; margin-top: 20px;}
+.selected .template-block{border: 1px solid #00b38a;}
+.template-block.res{display: none;}
+.template-block.edit{border: 1px solid #00b38a; display: none;}
+.template-block.show{display: block;}
+.template-block .top-bar{height:40px; background: #F7F7F7; line-height: 40px; font-size: 16px; padding: 0px 20px; position: relative;}
+.template-block .top-bar .tool-box{position: absolute; right: 20px; top: 0; font-size: 14px;}
+.template-block .top-bar .tool-box a{color: #00b38a; margin-left: 20px;}
+.template-block .top-bar .tool-box a:hover{text-decoration: underline;}
+.template-block .top-bar .tool-box a .icon{margin-right: 5px;}
+.template-block .cont{padding:10px 20px 20px; line-height: 24px; height:100px; overflow: auto;}
+.template-block .cont strong{color: #999; font-weight: normal;}
+.form-cont .input-text{width:400px;}
+.input-textarea textarea{width: 400px;}
+.hide{display: none;}
+.show{display: block;}

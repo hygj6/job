@@ -1,0 +1,27 @@
+.middle-cont-topic .search-box{float: left;}
+.middle-cont-topic .tip-min{float: left; line-height: 42px; padding-left: 20px;}
+.middle-cont-topic .tip-min a{color: #00b38a;}
+.personnel-list ul li{border: 1px solid #e4e7ea; margin-bottom: 20px;}
+.personnel-list ul li .top-bar{height: 37px; line-height: 37px; background: #fafafa; position: relative;}
+.personnel-list ul li .top-bar .base{color:#666; padding-left: 20px; position: absolute; left: 0; top:0;}
+.personnel-list ul li .top-bar .base i{font-style: normal; width: 1px; display: inline-block; vertical-align: middle; margin:-2px 9px 0px; height:12px; background: #c7c7c7;}
+.personnel-list ul li .top-bar .state{position: absolute; color:#666; right: 20px; top: 0;}
+.personnel-list ul li .top-bar .state.on{color: #00b38a;}
+.personnel-list ul li .top-bar .state .point{width: 8px; height: 8px; background: #999; display: inline-block; vertical-align: middle; border-radius:100%; margin: -2px 3px 0px 0px;}
+.personnel-list ul li .top-bar .state.on .point{background: #00b38a;}
+.personnel-list ul li .cont{padding:10px 20px 5px; position: relative; min-height: 90px;}
+.personnel-list ul li .cont .avatar-box{text-align: center; width: 50px; padding-top: 5px; float: left;}
+.personnel-list ul li .cont .avatar-box .avatar{width:50px; height: 50px; background: #ddd; border-radius:100%; overflow: hidden;}
+.personnel-list ul li .cont .avatar-box .avatar img{width: 50px; height: 50px;}
+.personnel-list ul li .cont .avatar-box .name{font-size: 14px; line-height: 1; padding:7px 0px; white-space:nowrap; margin: 0px -20px;}
+.personnel-list ul li .cont .base-info{padding-left:20px; float: left; width: 500px; padding-bottom: 10px;}
+.personnel-list ul li .cont .base-info p{line-height: 26px; overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;}
+.personnel-list ul li .cont .base-info p.tip{color: #999; padding-top: 4px;}
+.personnel-list ul li .cont .btn{width: 110px; height: 40px; text-align: center; line-height: 40px; border: 1px solid #00b38a; color: #00b38a; display: block;
+position: absolute; right:20px; top:30px;}
+.personnel-list ul li .cont .btn:hover{background:#00b38a; color:#fff;}
+
+
+

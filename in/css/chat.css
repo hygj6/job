@@ -1,0 +1,53 @@
+body,html{height: 100%;}
+.company-cont{height: 100%; position: relative; margin-top: -87px;}
+.chat-cont{padding: 0 !important; overflow:hidden; box-shadow: 0px 5px 14px 0px rgba(213, 217, 222, 0.57); position: absolute; top:100px; left: 0; right: 0; background:#fff; bottom: 20px; padding-left: 260px !important;}
+.chat-cont .seeker-tab{position: absolute; left: 0; top:0px; bottom: 0; overflow: auto; padding: 2px 0px 2px 2px;}
+.chat-cont .top-bar{height: 50px; line-height: 50px; text-align:center; color:#fff; background:#00b38a; color:#fff; position: absolute; top: 0; left: 0; width: 260px;}
+.chat-cont .chat-text{float: left; padding-top:50px; width:939px; border-left: 1px solid #eee; position: absolute; top: 0; bottom: 0; right: 0;}
+.chat-cont .chat-text .chat-top-bar{height: 50px; line-height: 50px; margin:0px 20px; border-bottom: 1px solid #eee; color: #666; position:absolute; top: 0; left: 0; right: 0;}
+.chat-cont .chat-text .chat-top-bar .l-box{position: absolute; left: 0; top: 0;}
+.chat-cont .chat-text .chat-top-bar .l-box .select-box{font-size: 13px;}
+.chat-cont .chat-text .chat-top-bar .l-box .icon{display: inline-block; vertical-align: middle; margin: -3px 3px 0px 0px;}
+.chat-cont .chat-text .chat-top-bar .r-box{position: absolute; right: 0; top: 0;}
+.chat-cont .chat-text .chat-top-bar .r-box a{color:#00b38a;}
+.chat-cont .chat-text .chat-top-bar .r-box a .icon{display: inline-block; vertical-align: middle; margin: -3px 3px 0px 0px;}
+.chat-cont .chat-text .chat-top-bar h3{text-align:center; color: #333; font-size: 16px; font-weight: normal;}
+.chat-cont .chat-text .chat-top-bar select{width: 120px; height: 30px; padding-left:5px; padding-right: 5px; padding:4px\9; display:inline-block; border: 1px solid #e4e7ea; margin-left: 10px; color: #333;}
+.chat-cont .chat-text .chat-list .avatar{width: 50px; overflow: hidden; vertical-align:top ; height: 50px; border-radius:100%; background: #ddd; display: inline-block;}
+.chat-cont .chat-text .chat-list .chat-item{padding:10px; max-width: 340px; vertical-align:top ; display: inline-block; background:#eceff4; border-radius:10px; margin: 0px 10px;
+position: relative; word-wrap:break-word ;}
+.chat-cont .chat-text .chat-list .chat-item i.arow{background: url(../img/chat-arow.png); width:7px; height:11px; display: block; position: absolute;
+left: -7px; top:10px;}
+.chat-cont .chat-text .chat-list .time{text-align: center; color: #999; line-height: 24px; padding: 10px 0px;}
+.chat-cont .chat-text .chat-list dd{padding-bottom: 24px;}
+.chat-cont .chat-text .chat-list dd.min-tip{text-align: center;}
+.chat-cont .chat-text .chat-list dd.min-tip .tag{background: #d5d5d5; color: #fff; border-radius:15px; font-size: 14px; padding:3px 10px; font-size: 12px;}
+.chat-cont .chat-text .chat-list dd.r{text-align: right;}
+.chat-cont .chat-text .chat-list dd.r .chat-item{background:#00b38a; color: #fff; text-align: left; word-wrap:break-word ;}
+.chat-cont .chat-text .chat-list dd.r .chat-item i.arow{background-position: -7px 0px; right: -7px; left: inherit;}
+.chat-cont .chat-text .chat-list dd a{color:#00B38A; text-decoration: underline; padding: 0px 5px;}
+.chat-cont .chat-text .cont{position: absolute; top: 50px; left: 0; right: 0; bottom:140px;}
+.chat-cont .chat-text .chat-list{overflow:auto; height:100%; padding:0px 20px;}
+
+
+.chat-cont .chat-text .chat-list::-webkit-scrollbar,.chat-cont .seeker-tab::-webkit-scrollbar{
+ width:7px;
+}
+.chat-cont .chat-text .chat-list::-webkit-scrollbar-track,.chat-cont .seeker-tab::-webkit-scrollbar-track {
+background-color:#fff;
+
+}
+.chat-cont .chat-text .chat-list::-webkit-scrollbar-thumb,.chat-cont .seeker-tab::-webkit-scrollbar-thumb{
+    border-radius:3px;
+    background-color:#ddd;
+}
+
+.chat-cont .chat-text .chat-input-box{height: 140px; border-top:1px solid #eee; position:absolute; bottom: 0; left: 0; right: 0;}
+.chat-cont .chat-text .chat-input-box textarea{border: none; width:899px; height:70px; padding: 10px 20px; outline: none;}
+.chat-cont .chat-text .chat-input-box .btn{height:34px; width: 100px; border: 1px solid #00b38a; color:#00b38a; background:#fff; position: absolute; right: 20px; bottom: 10px;}
+.chat-cont .chat-text .chat-input-box .btn:hover{background:#00b38a; color:#fff;}
+
+
+
+
+

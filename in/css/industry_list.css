@@ -1,0 +1,20 @@
+.middle-cont{padding: 0;}
+.industry-cont{position: relative; min-height: 500px; padding-left: 180px;}
+.industry-tab{line-height: 30px; background:#f4f4f4; width:180px; position: absolute; top: 0; bottom: 0; left: 0;}
+.industry-tab ul{padding: 10px 0; background:#f4f4f4;}
+.industry-tab ul li{position: relative; padding:4px 0; border-bottom:1px solid #eee;}
+.industry-tab ul li .arow-r{position: absolute; display: none; right:5px; top:50%; margin-top: -5px; border-left-color: #fff; border-width:5px ;}
+.industry-tab ul li.on .arow-r{display: block;}
+.industry-tab ul li:hover{background:#e4e4e4;}
+.industry-tab ul li.on{background:#00b38a;}
+.industry-tab a{color:#333; display: block; padding: 0px 10px;}
+.industry-tab ul li.on a{color:#fff;}
+.industry-item-cont{padding: 20px; display: none;}
+.industry-item-cont dl{padding-bottom: 25px; overflow: hidden;}
+.industry-item-cont dl dt{font-size: 16px; clear: both; padding-bottom:8px; color:#333;}
+.industry-item-cont dl dd{float: left; position: relative; margin-right:30px; line-height:22px; padding: 4px 0px; font-size: 14px; color:#666;}
+.industry-item-cont dl dd a:hover{color:#00b38a;}
+.industry-item-cont dl dd a.on{background:#00b38a; color:#fff; display: block; padding: 0px 10px; height: 22px; line-height: 22px;}
+.industry-item-cont dl dd:after{display: block; content: ""; position: absolute; top:5px; left:-15px; width: 1px; height: 16px; background: #ddd;}
+.hot-tags{padding: 20px 20px 0px;}
+.hot-tags li{margin-right: 10px; line-height: 30px; height: 30px; padding: 0px 10px; display: block; background:#fafafa; float: left; color:#333; font-weight: bold;}

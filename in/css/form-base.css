@@ -1,0 +1,62 @@
+html{height: 100%;}
+body{height: 100%; position: relative;}
+@-webkit-keyframes cloud1
+{
+0%{transform: translateX(-60px);}
+50%{transform: translateX(60px);}
+100%{transform: translateX(-60px);}
+}
+@-webkit-keyframes cloud2
+{
+0%{transform: translateX(-40px);}
+50%{transform: translateX(40px);}
+100%{transform: translateX(-40px);}
+}
+@-webkit-keyframes plane
+{
+from {transform: translateX(0);}
+to {transform: translateX(1920px);}
+}
+.logo-form{background:url(../img/logo-loginx1.png)\9; background:url(../img/logo-loginx2.png); background-size:100% 100%; width: 204px; height: 60px; display: block; position: absolute; left: 72px; top: 58px;}
+.city-bj{background:url(../img/city-bj.png) #2ec19f no-repeat center bottom; height: 100%; overflow: hidden; position: absolute; top: 0; left: 0; right: 0; bottom: 0;}
+.city-bj .cloud-large{-webkit-animation: cloud1 10s linear infinite; background: url(../img/cloud-large.png); width: 92px; height: 61px; display: block; position: absolute; left: 190px; bottom:390px;}
+.city-bj .cloud-small{-webkit-animation: cloud2 10s linear infinite; background: url(../img/cloud-small.png); width: 61px; height: 41px; display: block; position: absolute; right:150px; bottom:380px;}
+.city-bj .plane{-webkit-animation: plane 20s linear infinite; background: url(../img/plane.png); width: 87px; height: 35px; display: block; position: absolute; left: 10px; bottom:340px;}
+.form-wrap{width: 700px; margin: 0px auto; position: relative; z-index: 10; position: absolute; left: 50%; top: 50%;}
+.form-wrap.min{width: 420px; margin-left: -215px;}
+.form-wrap .form-box{background: #fff; padding:30px 65px; border-radius:5px; box-shadow:0px 4px 11px 3px rgba(3,155,120, 0.3);}
+.form-wrap .form-box .l-box{float: left; width: 290px; padding-right: 70px;}
+.form-wrap .form-box .title{font-size: 28px; color: #00b38a; font-weight: normal; text-align: center; line-height: 40px; margin-bottom: 20px;}
+
+.form-wrap .form-box .btn{width: 100%; display: block; height: 40px; line-height: 40px; text-align: center; background: #00b38a; color: #fff; border: none; border-radius:3px;}
+.form-wrap .form-box .btn.hollow{color:#00b38a; border:1px solid #ddd; background: #fff; border-radius:0; width: 160px; height: 42px; margin: 0px auto; line-height: 42px;}
+.form-wrap .form-box .btn.hollow:hover{background:#00b38a; border:1px solid #00b38a; color:#fff;}
+.form-wrap .form-box .tip{line-height: 34px; padding-top: 10px; text-align: center;}
+.form-wrap .form-box .tip .left{float: left;}
+.form-wrap .form-box .tip .right{float: right;}
+.form-wrap .form-box .tip a{color:#00b38a;}
+.form-wrap .form-box .r-box{float: left; padding:60px 0px 0px 30px; position: relative;}
+.form-wrap .form-box .r-box:after{width: 1px; height: 210px; content: ""; display: block; background:#f4f4f4; position: absolute; top: 60px; left: 0;}
+.form-wrap .form-box .r-box .tip-title{line-height: 14px;}
+.form-wrap .form-box .r-box .reg-login-btn{color: #00b38a; font-size: 16px; line-height: 36px;}
+.form-wrap .form-box .r-box .other-login{padding-top: 20px; font-size: 0; margin-left: -20px;}
+.form-wrap .form-box .r-box .other-login a{width: 42px; height: 42px; line-height: 42px; color: #fff; display: inline-block; background: #ddd; margin-left:20px; border-radius:100%; font-size: 16px; text-align: center;}
+.form-wrap .form-box .r-box .other-login a:hover.icon-wechat{background:#7ED53D;}
+.form-wrap .form-box .r-box .other-login a:hover.icon-qq{background:#0093d1;}
+.form-wrap .form-box .r-box .other-login a:hover.icon-sina{background:#e8162f;}
+.wrap-50{width:50%; float: left; position: relative;}
+.wrap-50 .line{position: absolute; left: 0; top: 20px; background: #f4f4f4; height: 250px; width: 1px;}
+.box-entrance{padding: 0px 30px;}
+.box-entrance .icon{width: 160px; height: 125px; display: block; margin: 0px auto 26px;}
+.bottom-tip{text-align: center; color: #999; padding: 30px 0px 0px;}
+.bottom-tip a{color: #00b38a; text-decoration: underline;}
+
+.form-wrap .form-box .input-text{border: 1px solid #ddd; line-height: 28px; border-radius:0; padding-left:25px; width: 253px;}
+.form-wrap .form-box .input-text:focus{border: 1px solid #00b38a;}
+.form-wrap .form-box .input-frame{position: relative;}
+.form-wrap .form-box .input-frame .icon{position: absolute; top:0; height: 40px; width:30px; display: block; text-align: center; line-height: 40px; left:0px; font-size: 14px; font-size:16px; color:#666;}
+/*color:#00b38a;*/
+.form-wrap .form-box .input-frame .icon.on{color:#00b38a;}
+.form-wrap .form-box .input-frame .icon.icon-code{font-size: 12px;}
+
+

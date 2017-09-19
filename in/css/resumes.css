@@ -1,0 +1,43 @@
+.condition{padding-top: 10px;}
+.condition h3{float: left; line-height: 34px; padding-right: 10px; font-weight: normal; font-size: 14px;}
+.condition dl dd{float: left; line-height:28px; cursor: pointer; background: #fff; border:1px solid #e4e7ea; padding: 0px 7px; margin:0px 0px 10px 10px;}
+.condition dl dd:hover{background: #eee;}
+.condition dl dd.on{background: #00b38a; color: #fff; border: 1px solid #00b38a;}
+.tip-min{color: #666; line-height: 40px; padding-bottom: 5px;}
+.tip-min .sign{color: #00b38a; padding: 0px 2px; }
+.interview-info-wrap{position: relative;}
+.interview-info-wrap .operation-bar{position: absolute; bottom:20px; right:7px;}
+.interview-info-wrap .operation-bar .item{display:block; margin-bottom: 15px; padding: 0px 20px 0px 35px; text-align: center; background:rgba(51, 51, 51, 0.4); background:#333\9; color:#fff; line-height: 40px; position: relative; border-radius:20px;}
+.interview-info-wrap .operation-bar .item:hover{background:#333;}
+.interview-info-wrap .operation-bar .item .icon{width: 40px; height: 40px; display:block; position: absolute; left: 0; top: 0; line-height: 40px; text-align: center; font-size:16px;}
+.interview-info{float:right; width: 880px;}
+.interview-info .title-bar{height:52px; line-height: 52px; border-bottom: 1px solid #e4e7ea;}
+.interview-info .title-bar h3{font-weight: normal; color: #666; float: left;}
+.interview-info .title-bar .tool-bar{float: right; height: 52px; line-height: 52px;}
+.interview-info .title-bar .tool-bar select,.interview-info .title-bar .tool-bar button{height: 30px; line-height: 30px; width: 90px; border:1px solid #e4e7ea;
+background: #fff; color: #666; font-size: 14px; vertical-align:middle; margin-top: -1px; margin-left:5px;}
+.interview-info .title-bar .tool-bar select{padding-left: 10px; line-height: 30px; height: 30px; padding: 5px\0;}
+.interview-info .title-bar .tool-bar button:hover{background: #00b38a; color: #fff; border: 1px solid #00b38a;}
+.interview-info .title-bar .tool-bar span{font-size: 14px; display: inline-block; vertical-align: middle;}
+.interview-info .title-bar .tool-bar .line{height: 27px; width: 1px; background: #e4e7ea; display:inline-block; vertical-align: middle; margin: 0px 20px 0px 25px;}
+.interview-info .info-bar{padding: 20px 0px 20px 100px; background: #f7f7f7;}
+.interview-info .info-bar .avatar{width:74px; height: 74px; background: #ddd; border-radius:100%; float: left;}
+.interview-info .info-bar .cont{float: left; padding-left: 30px; width:655px;}
+.interview-info .info-bar .avatar img{display: block; width: 100%; height: 100%; border-radius:100%;}
+.interview-info .info-bar .cont .text-box{color: #666; line-height: 24px; position: relative;}
+.interview-info .info-bar .cont .text-box .name{font-size: 18px; color: #333; line-height: 30px;}
+.interview-info .info-bar .cont .text-box .name a.btn{margin-top:-3px; display: inline-block; color:#00b38a; font-size: 14px; vertical-align: top;}
+.interview-info .info-bar .cont .text-box .name a.btn:hover{text-decoration: underline;}
+.interview-info .info-bar .cont .text-box .name a.btn .icon{font-size: 16px; margin: 0px 5px;}
+.interview-info .info-bar .cont .text-box .edit{color: #00b38a; position: absolute; right: 0; top: 0;}
+.interview-info .info-bar .cont .text-box .edit:hover{text-decoration: underline;}
+.interview-info .info-bar .cont .text-box .edit .icon{margin-right: 5px;}
+.modal-cont .min-title{color: #333; padding:5px 0px 2px; font-size: 14px;}
+.modal-cont .radio-item{line-height: 25px;}
+.modal-cont a{color: #00b38a;}
+.modal-cont .checked-group .item{width: 32%;}
+.modal-cont .group-input dd{float:left; line-height:40px;}
+.interview-info .info-bar .cont .text-box .line{background: #666; display: inline-block; vertical-align: middle; width: 1px; height: 14px; margin:-3px 5px 0px;}
+.resume-cont{width:873px; background: #fff; margin: 0px auto;}
+
+

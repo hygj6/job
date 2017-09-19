@@ -1,0 +1,36 @@
+.box-bind .other-bind-tab{float: left; border-right:1px solid #ddd;}
+.box-bind .other-bind-tab li{height: 56px; line-height: 56px; margin-right: -1px; padding-right: 28px; border-right:2px solid transparent; width: 110px; text-align: right;}
+.box-bind .other-bind-tab li.on{border-right:2px solid #00b38a;}
+.box-bind .other-bind-tab li a{display: block;}
+.box-bind .other-bind-tab li.on a{color:#00b38a;}
+.box-bind .other-bind-cont{padding-left: 54px; width: 526px; display: none;}
+.box-bind .other-bind-cont h3{font-size: 16px; line-height: 16px; padding-bottom: 20px; border-bottom: 1px dashed #ddd; color: #666;}
+.box-bind .other-bind-cont .other-list li{padding: 10px 0px; line-height: 28px; position: relative;}
+.box-bind .other-bind-cont .other-list li .icon{font-size: 20px; margin-right:20px; color:#b5b5b5; display: inline-block; vertical-align: middle; margin-top: -2px;}
+.box-bind .other-bind-cont .other-list li .icon.on.icon-wechat{color:#7ED53D;}
+.box-bind .other-bind-cont .other-list li .icon.on.icon-qq{color:#0093d1;}
+.box-bind .other-bind-cont .other-list li .icon.on.icon-sina{color:#e8162f;}
+.box-bind .other-bind-cont .other-list li a{color: #00b38a;}
+.box-bind .other-bind-cont .other-list li a.btn{position: absolute; right:160px; top: 10px;}
+.box-bind .other-bind-cont .tool-list{line-height: 25px; color: #999;}
+.box-bind .other-bind-cont .tool-list li{position: relative; padding-left: 30px; height: 80px;}
+.box-bind .other-bind-cont .tool-list li .icon{position: absolute; left: 0; top:15px; width:20px; height: 20px; line-height: 20px; display: block; text-align: center; font-size: 22px;}
+.box-bind .other-bind-cont .tool-list .label{font-size: 16px; color: #333;}
+.box-bind .other-bind-cont .tool-list .btn{font-size: 16px; border-radius:3px; position: absolute; right: 0; top: 0; width: 100px; height: 40px; line-height: 40px; text-align: center; display: block; border: 1px solid #00b38a; color:#00b38a;}
+.box-bind .other-bind-cont .tool-list .btn:hover{background:#00b38a; color:#fff;}
+.modal-backdrop .modal-dialog .modal-cont .form-box{margin-top: -20px;}
+.modal-backdrop .modal-dialog .modal-cont .form-box .tip-label-max{text-align: center; font-size:16px; line-height: 30px; color: #333;}
+.modal-backdrop .modal-dialog .modal-cont .form-box .tip-label{color: #999; line-height: 24px; font-size: 14px;}
+.modal-backdrop .modal-dialog .modal-cont .form-box .tip-label.center{text-align: center;}
+.modal-backdrop .modal-dialog .modal-cont .form-box .btn.center{height: 40px; width: 100px; border-radius:3px; background: #00b38a; border: none; color: #fff; display: block; margin: 30px auto 0px;}
+.modal-backdrop .modal-dialog{border-radius:3px;}
+.form-wrap .input-label{line-height: 34px; padding-top: 10px;}
+.form-wrap .form-box .input-text{margin: 0; width: 286px;}
+.update-mail-phome-tab li{position: relative; line-height: 24px; padding: 5px; background:#fafafa; margin-bottom: 5px;}
+.update-mail-phome-tab li .tab-input{margin-right: 5px;}
+.update-mail-phome-tab li .update-mail-phome-cont{padding: 5px;}
+.update-mail-phome-tab li .erro_msg{margin-bottom: 0;}
+
+
+
+

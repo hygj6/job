@@ -1,0 +1,122 @@
+.company-base-list{overflow: hidden; margin: 0px -20px;}
+.company-base-list li{position: relative; padding:15px 0px; margin: 0px 20px; border-top:1px dashed #e4e7ea; margin-top: -1px;}
+.company-base-list li .btn{position:absolute; right:0px; top:25px; width: 100px; height:36px; border: 1px solid #ddd; color: #666; text-align: center; line-height:36px;}
+.company-base-list li .btn:hover{background:#00b38a; color:#fff; border:1px solid #00b38a;}
+.company-base-list li .company-logo{width:50px; height:50px; border:1px solid #ddd; background: #ddd; border-radius:0%; float: left; overflow:hidden;}
+.company-base-list li .company-logo img{width: 100%; height: 100%;}
+.company-base-list li .company-info{float: left; padding-left: 20px;}
+.company-base-list li .company-info .base-info{line-height:28px; font-size: 13px; color: #666; overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis; width:450px;}
+.company-base-list li .company-info .base-info strong{color: #333; font-size: 16px; padding-right: 10px; font-weight: normal;}
+.company-base-list li .company-info .base-info strong a:hover{color:#00b38a;}
+.company-base-list li .company-info .other-info .item{padding-right:25px; color: #666; font-size: 13px;}
+.company-base-list li .company-info .other-info .item .icon{display: inline-block; vertical-align: middle; font-size: 14px; margin: -5px 10px 0px 0px;}
+.company-base-list li .company-info .other-info .item .red{color:#ff5d5d;}
+.condition-list{background:#f7f7f7; padding:10px; position: relative; border:1px solid #f8f8f8;}
+.condition-list dl{white-space:nowrap; float: left; font-size: 14px; width:150px; padding: 10px 10px 0; line-height: 1;}
+.condition-list dl dt{color: #555; font-weight: bold; width: 70px;}
+.condition-list dl dd,.condition-list dl dt{display: inline-block; vertical-align:text-top; line-height: 28px;}
+.condition-list dl dd ul{padding:0px 100px 10px 0px; position: relative; width:560px; white-space:normal;}
+.condition-list dl dd ul li{color:#666; padding:0px 10px; text-align: center; border-radius:3px; display:none;}
+.condition-list dl dd ul li:hover{background: #eee;}
+.condition-list dl dd ul li.on{background: #00b38a; color: #fff;}
+.condition-list.active dl{float: none; width: inherit;}
+.condition-list.active dl dd ul li{display: inline-block; cursor: pointer;}
+.condition-list.active dl dd ul li.more{color:#00b38a; position: absolute; right: 0; top: 0; cursor: pointer;}
+.condition-list.active dl dd ul li.more:hover{background:none; text-decoration: underline;}
+.condition-list.active dl dd ul li.more .arow-b{transition: 0.5s; transform-origin: 50% 3px; border-top-color:#00b38a; margin-left: 5px;}
+.condition-list.active dl dd ul li.more:hover .arow-b{transform: rotate(180deg);}
+.condition-list.active dl dd ul li.more .arow-t{border-bottom-color:#00b38a; margin-left: 5px; margin-top: -8px;}
+
+.condition-list dl dd ul li.current{display:inline-block;}
+.condition-list.active dl dd ul li.current{display:none;}
+.condition-list.active dl dd ul li.all{border:1px solid #00b38a; border-radius:3px; color:#00b38a; line-height: 26px; padding: 0px 15px; margin-left:8px;}
+.condition-list.active dl dd ul li.all:hover{background:#00b38a; color:#fff;}
+
+.condition-list dl dd ul.details{border-top:1px dashed #ddd; overflow: hidden; padding:10px; width:720px; margin-left: -80px; display: none;}
+.condition-list dl.active dd ul.details{display: block; animation: fade 0.2s;}
+
+
+.condition-list dl.active{background:#fff; padding: 9px; border:1px solid #e4e9f0;}
+.condition-list .drop-down{border: 1px solid #ddd; cursor: pointer; border-top:none; width: 40px; height: 14px; background: #f9f9f9; position: absolute; bottom: -14px; left: 50%; margin-left: -20px; text-align: center;}
+.condition-list .drop-down .arow-b{margin-top: -5px;}
+.base-screen{padding: 10px; background:#f7f7f7; white-space:nowrap; position: relative; border:1px solid #f8f8f8;}
+.base-screen .page-tool{position: absolute; right: 10px; top: 10px; font-size: 0; line-height: 28px;}
+.base-screen .page-tool .nub{color: #666; display: inline-block; width: 60px; text-align: right; padding-right:5px; font-size: 14px;}
+.base-screen .page-tool .nub span{color:#00b38a;}
+.base-screen .page-tool .prev,.base-screen .page-tool .next{vertical-align: top; margin-left: 5px; width: 24px; height: 24px; line-height: 26px; display: inline-block; border: 1px solid #ddd; background:#f9f9f9; text-align: center;}
+.base-screen .page-tool .prev:hover,.base-screen .page-tool .next:hover{background:#00b38a; border:1px solid #00b38a;}
+.base-screen .page-tool .prev .arow-l{border:7px solid transparent; border-right-color:#b3b3b3; margin-left: -8px;}
+.base-screen .page-tool .prev .arow-l i{border: 7px solid transparent; border-right-color: #f9f9f9; top: -7px; left: -5px;}
+.base-screen .page-tool .next .arow-r{border:7px solid transparent; border-left-color:#b3b3b3; margin-right: -8px;}
+.base-screen .page-tool .next .arow-r i{border: 7px solid transparent; border-left-color: #f9f9f9; top: -7px; left: -9px;}
+
+.base-screen .page-tool .prev:hover .arow-l{border-right-color: #fff;}
+.base-screen .page-tool .next:hover .arow-r{border-left-color: #fff;}
+.base-screen .page-tool .prev:hover .arow-l i{border-right-color: #00b38a;}
+.base-screen .page-tool .next:hover .arow-r i{border-left-color: #00b38a;}
+
+
+.base-screen dl{display: inline-block; line-height: 28px;}
+.base-screen dl dd,.base-screen dl dt,.base-screen dl dd ul li{display: inline-block; color:#666;}
+.base-screen dl dt{width: 70px; text-align: right; font-weight: bold; color: #555;}
+.base-screen dl dd ul li{padding: 0px 10px; cursor: pointer;}
+.base-screen dl dd ul li:hover{background: #eee;}
+.base-screen dl dd ul li.on{background:#00b38a; color: #fff; border-radius:3px;}
+.base-screen dl dd select{border: 1px solid #e4e9f0; width: 87px; height: 28px; padding: 2px 5px; display: inline-block; vertical-align: top;}
+.search-job-list li{box-shadow:0px 0px 0px rgba(0, 0, 0, 0.1); transition: all 0.2s; padding:10px 20px 0px; border:1px solid #e4e7ea; margin-top: 20px;}
+.search-job-list li:hover{box-shadow:0px 2px 13px rgba(0, 0, 0, 0.1);}
+.search-job-list .job-info{float: left; width:420px; padding-bottom:10px;}
+.search-job-list .job-info .job-name{line-height:26px; height: 26px; font-size:16px; overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;}
+.search-job-list .job-info .job-name a{color:#00b38a; display:inline-block; overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap; max-width:200px; vertical-align: middle; margin-top: -3px;}
+.search-job-list .job-info .job-name a:hover{text-decoration: underline;}
+.search-job-list .job-info .job-name .time{color:#999; margin-left: 5px; font-size: 14px; display:inline-block; vertical-align: middle;}
+.search-job-list .job-info .other{color: #666; line-height: 30px;}
+.search-job-list .job-info .other span.pay{color:#ff5d5d; font-size: 16px; padding-right:10px;}
+.search-job-list .job-info .time{color: #999; line-height: 30px;}
+.search-job-list .company-info{float: left;}
+.search-job-list .company-info .company-logo{width:48px; margin-top:4px; height:48px; background: #ddd; overflow: hidden; float: left; border: 1px solid #ddd;}
+.search-job-list .company-info .company-logo img{width: 100%; height: 100%;}
+.search-job-list .company-info .text{float: left; padding-left: 10px; color: #666; line-height: 30px; width: 220px;}
+.search-job-list .company-info .text .company-name{font-size: 14px; line-height:20px; padding-top: 5px;}
+.search-job-list .company-info .text .company-name a{color:#00b38a; line-height:20px; display: block;}
+.search-job-list .company-info .text .company-name a:hover{text-decoration: underline;}
+.search-job-list .company-info .text .company-name a span{vertical-align:middle; margin-top: -3px; display: inline-block; max-width:60%; overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+.search-job-list .company-info .text .company-name a:hover,.search-job-list .company-info .text .company-name a:hover span{text-decoration: underline;}
+.search-job-list li .bottom-bar{clear: both; background: #fafafa; height:40px; line-height:40px; margin: 0px -20px; padding: 0px 20px;}
+.search-job-list li .bottom-bar .tag-list{float: left; overflow: hidden; width: 350px; height:40px;}
+.search-job-list li .bottom-bar .tag-list .item{color:#666; font-size: 12px; border-radius:3px; padding: 0px 5px; height: 24px; line-height: 24px; display: inline-block; border: 1px solid #dcdcdc; margin-right: 5px;}
+.search-job-list li .bottom-bar .slogan{font-size: 13px; width:310px; float: right; color: #666; overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;}
+
+.company-base-detailed-list ul{margin-left: -20px;}
+.company-base-detailed-list ul li.item{width:373px; float: left; border:1px solid #e4e7ea; margin:0px 0px 20px 20px; box-shadow:0px 0px 0px rgba(0, 0, 0, 0.1); transition: all 0.2s;}
+.company-base-detailed-list ul li.item:hover{box-shadow:0px 2px 13px rgba(0, 0, 0, 0.1);}
+
+.company-base-detailed-list ul li.item .info{padding:20px 20px 5px 110px; position: relative;}
+.company-base-detailed-list ul li.item .info .logo-company{border:1px solid #ddd; line-height: 30px; position: absolute; top: 20px; left:20px; width: 56px; height: 56px; display: block;}
+.company-base-detailed-list ul li.item .info .name-company{font-size:18px; overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;}
+.company-base-detailed-list ul li.item .info .name-company a{color:#333;}
+.company-base-detailed-list ul li.item .info .name-company a:hover{color:#00b38a;}
+.company-base-detailed-list ul li.item .info .name-company a .icon{font-size:14px; margin-left: 3px;}
+.company-base-detailed-list ul li.item .info .slogan-company{font-size: 14px; color:#666; line-height: 28px;
+overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;}
+.company-base-detailed-list ul li.item .info .tags{text-align:left;}
+.company-base-detailed-list ul li.item .info .tags .tag{line-height: 40px; font-size: 14px; display: inline-block; padding-right:20px; max-width:40%; position: relative; color:#666; overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+.company-base-detailed-list ul li.item .info .tags .tag .icon{display: inline-block; margin-right:6px; font-size: 15px;}
+.company-base-detailed-list ul li.item .bottom-bar{height: 50px; background:#fafafa;}
+.company-base-detailed-list ul li.item .bottom-bar .tag{float:left; position: relative; width: 50%; text-align: center; line-height:20px;}
+.company-base-detailed-list ul li.item .bottom-bar .tag .line{height:32px; width: 1px; background: #e4e7ea; position: absolute; right: 0; top:9px; display: block;}
+.company-base-detailed-list ul li.item .bottom-bar .tag .label{font-size: 16px; color:#00b38a; padding-top: 5px;}
+.company-base-detailed-list ul li.item .bottom-bar .tag .tip{color:#999; font-size: 12px;}
+.company-base-detailed-list ul li.item .bottom-bar .tag .tip .icon{vertical-align: middle; margin-top: -3px; display: inline-block; margin-left: 3px;}

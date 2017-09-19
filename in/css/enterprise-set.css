@@ -1,0 +1,42 @@
+.banner{background: url(../img/enterprise-banner.jpg) center; height: 200px;}
+.audit-cont{background: #fff; padding-top: 20px; margin-top: 20px; border-radius:5px;}
+.audit-cont .step{width: 475px; margin: 0px auto;}
+.audit-cont .step .progress{background: url(../img/step-bj.png); width: 475px; height:39px;}
+.audit-cont .step .progress .bar{width:0px; background: url(../img/step-bj-hover.png); height:39px;}
+.audit-cont .step .step-text{margin: 0px -90px; line-height: 30px;}
+.audit-cont .step .step-text li{width: 33.33%; float: left; text-align: center;}
+.audit-cont .step.step1 .progress .bar{width:0%;}
+.audit-cont .step.step2 .progress .bar{width:75%;}
+.audit-cont .step.step3 .progress .bar{width:100%;}
+.audit-cont .step .step-text li.on{color: #00b38a;}
+.audit-cont .form-certified{width: 460px; margin: 0px auto; padding-top:20px;}
+.audit-cont .form-certified .input-text{display:block; margin-bottom: 30px; border: 1px solid #e4e7ea; width: 438px; height: 32px; padding: 5px 10px;}
+.audit-cont .form-certified .input-text:focus{border-color:#00b38a;}
+.audit-cont .form-certified select.input-text{width: 460px; height: 44px;}
+.audit-cont .form-certified .tip{color: #999; font-size: 12px; line-height:20px; padding: 5px 0px;}
+.audit-cont .form-certified .btn{display: block; width: 100%; height: 44px; border: none; color: #fff; background: #00b38a;}
+.audit-cont .form-certified .btn:hover{background:#00CB9C;}
+.audit-cont .form-certified .state-icon{width:68px; height: 68px; display: block; text-align: center; font-size: 32px; line-height: 68px; margin: 0px auto; color: #fff; background: #e2e2e2; border-radius:100%;}
+.audit-cont .form-certified .title{font-size:18px; font-weight: normal; text-align: center; line-height: 26px; padding-top:10px;}
+.audit-cont .form-certified .upload-img{border:1px solid #e4e7ea; border-radius:3px; padding-bottom: 20px; position:relative;}
+.audit-cont .form-certified .upload-img .preview-box{text-align: center; padding:20px 0px;}
+.audit-cont .form-certified .upload-img .preview-box img{width: 400px; height: 400px; border:0px solid #ddd; box-shadow: 0px 0px 10px 2px #ddd;}
+.audit-cont .form-certified .upload-img .up-business-box{text-align: center; line-height: 30px; color:#00b38a; position: relative;}
+.audit-cont .form-certified .upload-img .add{position: relative; width:20px; height:20px; overflow: hidden; text-align: center; line-height:18px; font-size:22px; color: #fff; text-align: center; background: #00b38a; display:inline-block; border-radius:100%; vertical-align: middle; margin-top: -4px; margin-right: 5px;}
+.audit-cont .form-certified .upload-img .add input{font-size:200px; opacity: 0; cursor:pointer; position: absolute; left: 0; top: 0;}
+.audit-cont .form-certified .upload-img h3{font-size:14px; color: #666; text-align: center; font-weight:normal;}
+.audit-cont .bottom-certified{width: 460px; margin: 0px auto; color: #666; line-height: 23px; padding:10px 0px 20px;}
+.audit-cont .bottom-certified .reset-btn{border: 1px solid #00b38a; color:#00b38a; padding:0px 8px; border-radius:10px; font-size: 12px;}
+.audit-cont .part-line{border-bottom: 1px dashed #ddd;}
+.audit-cont .min-btn{width: 100px; text-align: center; color: #fff; margin: 0px auto; border-radius:3px ; line-height: 36px; height: 36px; display: block; background: #00b38a; display: block; font-size: 14px;}
+.audit-cont .min-btn:hover{background:#00CB9C;}
+.audit-cont .label-input{line-height: 34px; color: #333;}
+
+
+
+
+
+
+
+
+
